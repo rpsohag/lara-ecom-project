@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class ProductAtt extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'product_id','price','quantity','stock','sku', 'size', 'color',
+    ];
+}
